@@ -1,0 +1,330 @@
+html { scroll-behavior: smooth; }
+
+
+
+
+
+
+.hero h2 {
+	font-family: runda, sans-serif;
+font-weight: 300;
+font-style: italic;
+ color: #343330;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+ text-align: center;
+}
+
+.hero img {
+	width: 100%;
+	height: 90vh;
+	object-fit: cover;
+	padding-top: 6rem;
+}
+
+
+.nav {
+		font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+background-color: #9B5A3C;
+}
+
+.nav li a {
+	color: #343330;
+	font-size: 1.25rem;
+
+}
+
+.nav li a:hover {
+	color: white;
+
+}
+
+header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 11;
+}
+
+
+.booking {
+	background: #FFE6BF url(../img/reservation-2.jpg) no-repeat;
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+color:  #343330;
+
+padding: 3rem 0;
+
+}
+
+.booking h2 {
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+}
+
+
+.image-overlay {
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: white;
+text-align: center;
+}
+
+.booking thead {
+	background-color: transparent;
+border: 0;
+
+font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+color:  #343330;
+}
+
+.booking label {
+	display: block;
+
+	font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+ color:  #343330;
+}
+
+.booking input[type="text"] {
+	padding: 2rem;
+font-size: 1.25rem;
+border: 0;
+border-radius: 2rem;
+width: 50%;
+display: inline-block;
+
+font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+ color:  #343330;
+}
+
+/*BUTTON STYLIZATION*/
+.submit {
+
+	 color: white;
+}
+
+.booking input[type="submit"] {
+
+		padding: 1.5rem 2rem;
+font-size: 1.25rem;
+border-radius: 2rem;
+line-height: 1;
+	font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+background-color: #DC851F;
+}
+
+.booking input[type="submit"]:hover {
+	color: #DC851F;
+	background-color:  #fff;
+}
+
+.booking img {
+width: 100%;
+}
+
+
+
+/*POP UP COMFIRMATION*/
+
+.reveal {
+	padding: 3rem;
+	border: 0;
+	background: url(../img/reservation-2.jpg) no-repeat;
+	background-size: cover;
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.reveal h1 {
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: white;
+}
+
+.reveal h2 {
+font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+color: white;
+}
+
+body {
+	background-color: #FFE6BF
+}
+
+section.services {
+font-family: runda, sans-serif;
+font-weight: 300;
+font-style: normal;
+padding: 2rem;
+
+text-align: center;
+background-color: #FFE6BF;
+font-size: 30pt;
+padding: 5rem 0;
+}
+
+.services img {
+	padding: 1rem;
+}
+
+.services p {
+	font-size: 1.25rem;
+	padding: 2rem;
+}
+
+.services h1 {
+		font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+ color:  #343330; /*deep gray color*/
+ padding-bottom: 3rem;
+
+}
+
+
+section.services a {
+  color: white;
+
+}
+
+
+section.services button {
+  background-color: #DC851F; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+
+  font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+section.services button:hover {
+  color: #DC851F;
+	background-color:  #fff;
+}
+
+.library h1{
+
+font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #343330;
+font-size: 30pt;
+padding-top: 1rem;
+
+}
+
+.library img {
+	width: 100%;
+	height: 80vh;
+	object-fit: cover;
+}
+
+.library {
+	background-color: white;
+	padding: 2rem;
+}
+
+
+
+.library p {
+	font-family: runda, sans-serif;
+font-weight: 300;
+font-style: normal;
+color:  #343330;
+padding: 1rem;
+}
+
+
+section.library button {
+	background-color: #DC851F; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+
+  font-family: runda, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+}
+
+section.library button:hover {
+	color: #DC851F;
+	background-color:  #fff;
+}
+
+.footer {
+	background-color: #9B5A3C;
+	padding: 5rem 0;
+}
+.footer h3 {
+	font-family: runda, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #343330;
+}
+
+.footer p {
+	font-family: runda, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #343330;
+}
+
+
+
+
+
+section.footer a {
+	color:  #343330;
+}
+
+section.footer a:hover {
+	color:  white;
+}
+
+footer .fa {
+	 font-size: 1.5rem;
+	 margin-right: 1rem;
+}
+
+
+
